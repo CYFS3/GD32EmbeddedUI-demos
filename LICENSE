@@ -1,0 +1,28 @@
+# License information
+
+This repository contains components under different licenses. The following
+SPDX expression summarizes those components; it does not relicense every file
+under all three licenses:
+
+    BSD-3-Clause AND Apache-2.0 AND OFL-1.1
+
+- GigaDevice-generated code carrying the original three-clause BSD notice
+  remains under BSD-3-Clause. See LICENSES/BSD-3-Clause.txt and the file headers.
+- port/aic_ui.h carries the RT-Thread Apache-2.0 notice. See
+  LICENSES/Apache-2.0.txt.
+- The converted Noto Sans CJK SC and Font Awesome font data in
+  generated/font/font_notosanscjksc_regular_14_b49ae336.c is under SIL OFL 1.1.
+  See LICENSES/OFL-1.1.txt and THIRD_PARTY_NOTICES.md for copyright, provenance
+  and redistribution information. The separate fallback wrapper retains its
+  original GigaDevice code license.
+
+Preserve the applicable copyright notices and license texts when redistributing
+these components, including their converted font data. Include the font notices
+and OFL text with distributions of the package and with products containing it.
+
+The font license permits commercial use and bundling with proprietary software;
+it does not require the surrounding application to be open source. Font data
+and modified versions remain subject to OFL 1.1 and may not be sold by themselves.
+
+External LVGL, simulator dependencies and newly added assets retain their own
+licenses. The generated project's code license does not replace asset licenses.

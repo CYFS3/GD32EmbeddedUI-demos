@@ -1,3 +1,17 @@
+/*
+ * SPDX-License-Identifier: OFL-1.1
+ *
+ * Font data derived from Noto Sans CJK SC 2.004:
+ * Copyright (c) 2014-2021 Adobe (http://www.adobe.com/).
+ * Noto is a trademark of Google Inc.
+ *
+ * Icon font data derived from Font Awesome Free 5.9.0:
+ * Copyright (c) Font Awesome.
+ *
+ * Subsetted, combined and converted to LVGL C bitmap data.
+ * See LICENSES/OFL-1.1.txt and THIRD_PARTY_NOTICES.md at the repository root.
+ */
+
 /*******************************************************************************
  * Size: 14 px
  * Bpp: 4

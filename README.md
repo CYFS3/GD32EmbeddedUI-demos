@@ -129,6 +129,17 @@ and the README files under `simulator/third_party/` for dependency locations.
 
 ## License notices
 
-Exported files retain their original GigaDevice copyright and license notices.
-The firmware compatibility header retains its RT-Thread Apache-2.0 notice.
-Observe the licenses of LVGL, fonts and any other resources you add.
+See [LICENSE](LICENSE) for the component license mapping. GigaDevice-generated
+code retains its BSD-3-Clause notices; the firmware compatibility header retains
+its RT-Thread Apache-2.0 notice.
+
+The generated font data combines Noto Sans CJK SC and Font Awesome Free and is
+licensed under [SIL OFL 1.1](LICENSES/OFL-1.1.txt). Commercial use and embedding in
+proprietary firmware are permitted, subject to the license terms. Include the
+font copyright notices and OFL text with distributions; converted/subset font
+data remains under OFL, and the fonts may not be sold by themselves.
+
+See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for the source fonts,
+versions, copyright and trademark notices. Keep that file and `LICENSES/` when
+regenerating or redistributing the project. Added fonts, LVGL and simulator
+dependencies retain their own licenses.

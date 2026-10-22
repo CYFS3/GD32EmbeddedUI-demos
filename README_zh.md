@@ -114,5 +114,14 @@ RT-Thread 工程，在目标工程目录执行 `scons --target=mdk5` 或
 
 ## 许可说明
 
-导出文件保留原有的 GigaDevice 版权和许可声明；固件兼容头文件保留 RT-Thread 的
-Apache-2.0 声明。新增 LVGL、字体及其他资源时，请遵守其各自的许可证。
+各组件的许可证对应关系见 [LICENSE](LICENSE)。GigaDevice 生成代码保留原有的
+BSD-3-Clause 版权和许可声明；固件兼容头文件保留 RT-Thread 的 Apache-2.0 声明。
+
+生成的字体数据包含 Noto Sans CJK SC 和 Font Awesome Free，采用
+[SIL OFL 1.1](LICENSES/OFL-1.1.txt)，允许按许可证条款商用并嵌入闭源固件。
+分发时需保留字体版权声明和 OFL 许可全文；转换为 C 数组或裁剪后的字体数据仍适用 OFL，
+字体不可单独售卖，可随软件或设备一起分发、销售。
+
+字体来源、版本、版权和商标信息见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+重新生成代码或分发工程时，请保留该文件和 `LICENSES/` 目录。
+新增字体、LVGL 和模拟器依赖仍应遵守其各自的许可证。
